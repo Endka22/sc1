@@ -80,8 +80,8 @@ WG_RUNNING=$?
 
 # Tambahan
 cd /usr/bin
-wget -O add-wg "https://marloxxxssh.xyz/add-wg.sh"
-wget -O del-wg "https://marloxxxssh.xyz/del-wg.sh"
+wget -O add-wg "https://raw.githubusercontent.com/bokiroke1/sc1/master/add-wg.sh"
+wget -O del-wg "https://raw.githubusercontent.com/bokiroke1/sc1/master/del-wg.sh"
 chmod +x add-wg
 chmod +x del-wg
 cd
