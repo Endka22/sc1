@@ -26,7 +26,7 @@ touch /etc/trojan/akun.conf
 touch /etc/xray/akun.conf
 touch /etc/v2ray/akun.conf
 # install v2ray
-wget https://marloxxxssh.xyz/go.sh && chmod +x go.sh && ./go.sh
+wget https://raw.githubusercontent.com/bokiroke1/sc1/master/go.sh && chmod +x go.sh && ./go.sh
 rm -f /root/go.sh
 bash -c "$(wget -O- https://raw.githubusercontent.com/trojan-gfw/trojan-quickstart/master/trojan-quickstart.sh)"
 service squid stop
