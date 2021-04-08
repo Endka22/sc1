@@ -138,8 +138,8 @@ Save_iptables
 Start_SSR
 }
 Install_SSR
-wget -O /usr/bin/ssr https://marloxxxssh.xyz/ssrmu.sh && chmod +x /usr/bin/ssr
-wget -O /usr/bin/add-ssr https://marloxxxssh.xyz/add-ssr.sh && chmod +x /usr/bin/add-ssr
-wget -O /usr/bin/del-ssr https://marloxxxssh.xyz/del-ssr.sh && chmod +x /usr/bin/del-ssr
+wget -O /usr/bin/ssr https://raw.githubusercontent.com/bokiroke1/sc1/master/ssrmu.sh && chmod +x /usr/bin/ssr
+wget -O /usr/bin/add-ssr https://raw.githubusercontent.com/bokiroke1/sc1/master/add-ssr.sh && chmod +x /usr/bin/add-ssr
+wget -O /usr/bin/del-ssr https://raw.githubusercontent.com/bokiroke1/sc1/master/del-ssr.sh && chmod +x /usr/bin/del-ssr
 touch /usr/local/shadowsocksr/akun.conf
 rm -f /root/ssr.sh
