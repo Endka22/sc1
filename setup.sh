@@ -20,7 +20,7 @@ wget https://raw.githubusercontent.com/bokiroke1/sc1/master/wg.sh && chmod +x wg
 wget https://raw.githubusercontent.com/bokiroke1/sc1/master/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
 wget https://raw.githubusercontent.com/bokiroke1/sc1/master/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
 #install v2ray
-wget https://raw.githubusercontent.com/bokiroke1/sc1/master/sodosok.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
+wget https://raw.githubusercontent.com/bokiroke1/sc1/master/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
 #install L2TP
 wget https://raw.githubusercontent.com/bokiroke1/sc1/master/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
 echo " "
