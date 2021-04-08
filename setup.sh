@@ -12,17 +12,17 @@ echo "Enter the VPS Subdomain Hostname, if not available, please click Enter"
 read -p "Hostname: " host
 echo "IP=$host" >> /var/lib/premium-script/ipvps.conf
 #install ssh ovpn
-wget https://marloxxxssh.xyz/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
-wget https://marloxxxssh.xyz/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
+wget https://raw.githubusercontent.com/bokiroke1/sc1/master/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/bokiroke1/sc1/master/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
 #installwg
-wget https://marloxxxssh.xyz/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
+wget https://raw.githubusercontent.com/bokiroke1/sc1/master/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
 #install ssr
-wget https://marloxxxssh.xyz/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
-wget https://marloxxxssh.xyz/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
+wget https://raw.githubusercontent.com/bokiroke1/sc1/master/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
+wget https://raw.githubusercontent.com/bokiroke1/sc1/master/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
 #install v2ray
-wget http://marloxxxssh.xyz/ins-vt.sh.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
+wget https://raw.githubusercontent.com/bokiroke1/sc1/master/sodosok.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
 #install L2TP
-wget https://marloxxxssh.xyz/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
+wget https://raw.githubusercontent.com/bokiroke1/sc1/master/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
 echo " "
 echo "Installation has been completed!!"
 echo " "
