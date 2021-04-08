@@ -25,7 +25,7 @@ commonname=www.vpnstores.net
 email=admin@vpnstores.net
 
 # simple password minimal
-wget -O /etc/pam.d/common-password "https://marloxxxssh.xyz/password"
+wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/bokiroke1/sc1/master/password"
 chmod +x /etc/pam.d/common-password
 
 # go to root
@@ -96,15 +96,15 @@ apt -y install nginx
 cd
 rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
-wget -O /etc/nginx/nginx.conf "https://marloxxxssh.xyz/nginx.conf"
+wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/bokiroke1/sc1/master/nginx.conf"
 mkdir -p /home/vps/public_html
 echo "<pre>Setup by Horasss</pre>" > /home/vps/public_html/index.html
-wget -O /etc/nginx/conf.d/vps.conf "https://marloxxxssh.xyz/vps.conf"
+wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/bokiroke1/sc1/master/vps.conf"
 /etc/init.d/nginx restart
 
 # install badvpn
 cd
-wget -O /usr/bin/badvpn-udpgw "https://marloxxxssh.xyz/badvpn-udpgw64"
+wget -O /usr/bin/badvpn-udpgw "https://raw.githubusercontent.com/bokiroke1/sc1/master/badvpn-udpgw64"
 chmod +x /usr/bin/badvpn-udpgw
 sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7100 --max-clients 500' /etc/rc.local
 sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7200 --max-clients 500' /etc/rc.local
@@ -128,7 +128,7 @@ echo "/usr/sbin/nologin" >> /etc/shells
 # install squid
 cd
 apt -y install squid3
-wget -O /etc/squid/squid.conf "https://marloxxxssh.xyz/squid3.conf"
+wget -O /etc/squid/squid.conf "https://raw.githubusercontent.com/bokiroke1/sc1/master/squid3.conf"
 sed -i $MYIP2 /etc/squid/squid.conf
 
 # setting vnstat
@@ -196,7 +196,7 @@ sed -i 's/ENABLED=0/ENABLED=1/g' /etc/default/stunnel4
 /etc/init.d/stunnel4 restart
 
 #OpenVPN
-wget https://marloxxxssh.xyz/vpn.sh &&  chmod +x vpn.sh && ./vpn.sh
+wget https://raw.githubusercontent.com/bokiroke1/sc1/master/vpn.sh &&  chmod +x vpn.sh && ./vpn.sh
 
 
 # install fail2ban
@@ -256,23 +256,23 @@ netfilter-persistent reload
 
 # download script
 cd /usr/bin
-wget -O about "https://marloxxxssh.xyz/about.sh"
-wget -O menu "https://sc.vpnstores.net/wgss/menu.sh"
-wget -O usernew "https://marloxxxssh.xyz/usernew.sh"
-wget -O trial "https://marloxxxssh.xyz/trial.sh"
-wget -O hapus "https://marloxxxssh.xyz/hapus.sh"
-wget -O member "https://marloxxxssh.xyz/member.sh"
-wget -O delete "https://marloxxxssh.xyz/delete.sh"
-wget -O cek "https://marloxxxssh.xyz/cek.sh"
-wget -O restart "https://marloxxxssh.xyz/restart.sh"
-wget -O speedtest "https://marloxxxssh.xyz/speedtest_cli.py"
-wget -O info "https://marloxxxssh.xyz/info.sh"
-wget -O ram "https://marloxxxssh.xyz/ram.sh"
-wget -O renew "https://marloxxxssh.xyz/renew.sh"
-wget -O autokill "https://marloxxxssh.xyz/autokill.sh"
-wget -O ceklim "https://marloxxxssh.xyz/ceklim.sh"
-wget -O tendang "https://marloxxxssh.xyz/tendang.sh"
-wget -O clear-log "https://marloxxxssh.xyz/clear-log.sh"
+wget -O about "https://raw.githubusercontent.com/bokiroke1/sc1/master/about.sh"
+wget -O menu "https://raw.githubusercontent.com/bokiroke1/sc1/master/menu.sh"
+wget -O usernew "https://raw.githubusercontent.com/bokiroke1/sc1/master/usernew.sh"
+wget -O trial "https://raw.githubusercontent.com/bokiroke1/sc1/master/trial.sh"
+wget -O hapus "https://raw.githubusercontent.com/bokiroke1/sc1/master/hapus.sh"
+wget -O member "https://raw.githubusercontent.com/bokiroke1/sc1/master/member.sh"
+wget -O delete "https://raw.githubusercontent.com/bokiroke1/sc1/master/delete.sh"
+wget -O cek "https://raw.githubusercontent.com/bokiroke1/sc1/master/cek.sh"
+wget -O restart "https://raw.githubusercontent.com/bokiroke1/sc1/master/restart.sh"
+wget -O speedtest "https://raw.githubusercontent.com/bokiroke1/sc1/master/speedtest_cli.py"
+wget -O info "https://raw.githubusercontent.com/bokiroke1/sc1/master/info.sh"
+wget -O ram "https://raw.githubusercontent.com/bokiroke1/sc1/master/ram.sh"
+wget -O renew "https://raw.githubusercontent.com/bokiroke1/sc1/master/renew.sh"
+wget -O autokill "https://raw.githubusercontent.com/bokiroke1/sc1/master/autokill.sh"
+wget -O ceklim "https://raw.githubusercontent.com/bokiroke1/sc1/master/ceklim.sh"
+wget -O tendang "https://raw.githubusercontent.com/bokiroke1/sc1/master/tendang.sh"
+wget -O clear-log "https://raw.githubusercontent.com/bokiroke1/sc1/master/clear-log.sh"
 
 echo "0 5 * * * root clear-log && reboot" >> /etc/crontab
 
