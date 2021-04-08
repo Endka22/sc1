@@ -1,0 +1,23 @@
+#!/bin/bash
+#Menu
+
+echo -e "========================-Menu-======================"
+echo -e ""
+echo -e "* menu      : Menampilkan Daftar Perintah"
+echo -e "* usernew   : Membuat Akun SSH & OpenVPN"
+echo -e "* trial     : Membuat Akun Trial SSH & OpenVPN"
+echo -e "* hapus     : Menghapus Akun SSH & OpenVPN"
+echo -e "* cek       : Cek User Login"
+echo -e "* member    : Daftar Member SSH & OpenVPN"
+echo -e "* renew     : Memperpanjang Masa Aktif Akun"
+echo -e "* delete    : Menghapus Akun Expired"
+echo -e "* ram       : Cek Penggunaan Ram VPS"
+echo -e "* restart   : Restart Service Dropbear, Webmin, Squid3, OpenVPN dan SSH"
+echo -e "* reboot    : Reboot VPS"
+echo -e "* speedtest : Speedtest VPS"
+echo -e "* info      : Menampilkan Informasi Sistem"
+echo -e "* about     : Info Script Auto Install"
+echo -e "* exit      : Keluar Dari Putty/Connecbot/JuiceSSH"
+echo -e ""
+echo -e "================-AutoScriptVPS By  Horasss-================"
+echo -e ""
