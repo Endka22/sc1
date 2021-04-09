@@ -308,11 +308,11 @@ systemctl enable trojan
 systemctl restart v2ray
 systemctl enable v2ray
 cd /usr/bin
-wget -O addws "https://marloxxxssh.xyz/add-ws.sh"
-wget -O addtr "https://marloxxxssh.xyz/add-tr.sh"
-wget -O delws "https://marloxxxssh.xyz/del-ws.sh"
-wget -O deltr "https://marloxxxssh.xyz/del-tr.sh"
-wget -O certv2ray "https://marloxxxssh.xyz/cert.sh"
+wget -O addws "https://raw.githubusercontent.com/bokiroke1/sc1/master/add-ws.sh"
+wget -O addtr "https://raw.githubusercontent.com/bokiroke1/sc1/master/add-tr.sh"
+wget -O delws "https://raw.githubusercontent.com/bokiroke1/sc1/master/del-ws.sh"
+wget -O deltr "https://raw.githubusercontent.com/bokiroke1/sc1/master/del-tr.sh"
+wget -O certv2ray "https://raw.githubusercontent.com/bokiroke1/sc1/master/cert.sh"
 chmod +x addws
 chmod +x addtr
 chmod +x delws
