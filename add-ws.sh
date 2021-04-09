@@ -82,11 +82,11 @@ echo -e "id             : ${uuid}"
 echo -e "alterId        : 2"
 echo -e "Security       : auto"
 echo -e "network        : ws"
-echo -e "path           : /vpnstores",
+echo -e "path           : /kangcoli",
 echo -e "================================="
 echo -e "link TLS       : ${vmesslink1}"
 echo -e "================================="
 echo -e "link none TLS  : ${vmesslink2}"
 echo -e "================================="
 echo -e "Expired On     : $exp"
-echo -e "AutoScriptVPS By  Horasss"
+echo -e "AutoScriptVPS By  Kangcoli"
