@@ -39,7 +39,7 @@ cat <<EOF
 L2TP/IPSEC PSK VPN
 
 Server IP    : $PUBLIC_IP
-IPsec PSK    : vpnstores
+IPsec PSK    : kangcoli
 Username     : $VPN_USER
 Password     : $VPN_PASSWORD
 Expired ON   : $exp
