@@ -7,4 +7,4 @@ if getent passwd $Pengguna > /dev/null 2>&1; then
 else
         echo -e "Failure: User $Pengguna Not Exist."
 fi
-echo "AutoScriptVPS By  Horasss"
+echo "AutoScriptVPS By  kangcoli"
