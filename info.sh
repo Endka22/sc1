@@ -4,4 +4,4 @@ clear
 neofetch
 cat /root/log-install.txt
 echo ""
-echo "AutoScriptVPS By  Horasss"
+echo "AutoScriptVPS By  kangcoli"
