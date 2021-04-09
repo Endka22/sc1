@@ -16,4 +16,4 @@ JUMLAH="$(awk -F: '$3 >= 1000 && $1 != "nobody" {print $1}' /etc/passwd | wc -l)
 echo "-------------------------------"
 echo "Total Account: $JUMLAH user"
 echo "-------------------------------"
-echo "AutoScriptVPS By  Horasss"
+echo "AutoScriptVPS By  kangcoli"
