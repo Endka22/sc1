@@ -79,4 +79,4 @@ clear
 	echo -e "Method         : aes-256-cfb"
 	echo -e "Expired On   : $exp"
 	echo -e "==========================="
-	echo -e "AutoScriptVPS By  Horasss"
+	echo -e "AutoScriptVPS By  kangcoli"
